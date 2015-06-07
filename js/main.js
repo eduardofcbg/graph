@@ -3,7 +3,7 @@
  */
 
 //get input from form action
-RESOLUTION = parseInt(getParameterByName("r"));
+RESOLUTION = parseFloat(getParameterByName("r"));
 MAX = parseInt(getParameterByName("max"));
 MIN = parseInt(getParameterByName("min"));
 SPEED = parseInt(getParameterByName("t"));
