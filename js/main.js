@@ -1,10 +1,10 @@
 
 //get input from form action
-RESOLUTION = parseFloat(getParameterByName("r"));
-MAX = parseInt(getParameterByName("max"));
-MIN = parseInt(getParameterByName("min"));
-SPEED = parseInt(getParameterByName("t"));
-FUNC = "f(x, y, t) = " + getParameterByName("f");
+var RESOLUTION = parseFloat(getParameterByName("r"));
+var MAX = parseInt(getParameterByName("max"));
+var MIN = parseInt(getParameterByName("min"));
+var SPEED = parseInt(getParameterByName("t"));
+var FUNC = "f(x, y, t) = " + getParameterByName("f");
 
 function getParameterByName(name) {
     name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
