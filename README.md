@@ -4,4 +4,4 @@ Check demo [here](http://eduardofcbg.github.io/moving-3d-grapher/graph.html?f=si
 
 Plot your own functions [here](http://eduardofcbg.github.io/moving-3d-grapher/)
 
-![Demo gif](https://raw.githubusercontent.com/eduardofcbg/moving-3d-grapher/master/demo.gif)
+![Demo gif](https://raw.githubusercontent.com/eduardofcbg/moving-3d-grapher/gh-pages/demo.gif)
