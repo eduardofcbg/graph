@@ -45,7 +45,7 @@ function start(RESOLUTION, MAX, MIN, SPEED, f) {
 	//console.log(cloud);
 	scene.add( cloud );
 
-	render(renderer, cloud, controls, camera, scene);
+	render();
 }
 
 //evaluate mathematical function for a set domain
