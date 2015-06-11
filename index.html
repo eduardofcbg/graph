@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>3D Grapher</title>
+  <style>
+    body { margin: 10% }
+  </style>
+</head>
+<body>
+    <form action="graph.html">
+        <h1>3D Grapher</h1>
+        <input id=btn type="submit" value="Graph!"><a href="https://github.com/eduardofcbg/moving-3d-grapher">github</a>
+        <hr>
+        Function: <input id="function" type="text" name="f" value="sin(x-t)">
+        Resolution: <input type="number" min="0" max="2" name="r" step="0.10" value=1>
+        Bounds:
+        <input type="number" min="-500" max="0" name="min" step="1" value=-10>
+        <input type="number" min="0" max="500" name="max" step="1" value=10>
+        Speed: <input type="number" min="0" max="10" name="t" step="0.1" value=1>
+    </form>
+    <style>
+        #btn {
+          margin-bottom: 25px;
+          padding: 10px;
+        }
+        a {
+          margin-left: 20px;
+        }
+        hr {
+          margin-bottom: 40px;
+        }
+    </style>
+</body>
+</html>
