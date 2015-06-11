@@ -2,10 +2,13 @@
  * Created by eduardo on 07-06-2015.
  */
 
+//called on page load
 function start(RESOLUTION, MAX, MIN, SPEED, f) {
 	var pointResolution = 10*RESOLUTION;  //number of points per unit;
 
 	scene = new THREE.Scene();
+	clock = new THREE.Clock();
+	t = clock.getElapsedTime()
 
 	//creates camera and mouse controls for changing camera orientation
 	camera = new THREE.PerspectiveCamera(10*RESOLUTION, window.innerWidth / window.innerHeight, 0.1, 1000 );
@@ -70,8 +73,8 @@ function moveCamera(camera, scene){
 }
 
 //main render function
-var clock = new THREE.Clock();
-var t = clock.getElapsedTime();
+var clock;
+var t;
 var renderer;
 var cloud;
 var controls;
