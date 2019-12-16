@@ -7,7 +7,7 @@
 <body>
     <form action="graph.html">
         <h1>3D Grapher</h1>
-        <input id="btn" type="submit" value="Graph!"><a href="https://github.com/eduardofcbg/moving-3d-grapher">github</a>
+        <input id="btn" type="submit" value="Graph!"><a href="https://github.com/eduardofcbg/graph">github</a>
         <hr>
         Function: <input id="function" type="text" name="f" value="sin(x-t)">
         Resolution: <input type="number" min="0" max="2" name="r" step="0.10" value=1>
@@ -17,7 +17,10 @@
         Speed: <input type="number" min="0" max="10" name="t" step="0.1" value=1>
     </form>
     <style>
-        body { margin: 10% }
+        body {
+          font-family: "Comic Sans MS", cursive, sans-serif;
+          margin: 10%;
+        }
         #btn {
           margin-bottom: 25px;
           padding: 10px;
